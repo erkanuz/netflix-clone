@@ -2,7 +2,7 @@
 <h5 align="center">🌐 Link to website: https://netflix-clone-erkanuz.vercel.app/welcome </h5>
 
 <div align="center">
- <img width="49%" src="https://github.com/erkanuz/test/assets/78959562/5ee174ed-da2d-48dc-bd2b-8a9d006907ab"/> <img width="49%" src="https://github.com/erkanuz/test/assets/78959562/80034967-8f03-4699-851e-72f25095cdb5"/>
+ <img width="49%" src="https://github.com/erkanuz/netflix-clone/assets/78959562/c1c853de-12c6-47b9-98c0-f9fc71e04544"/> <img width="49%" src="https://github.com/erkanuz/netflix-clone/assets/78959562/ef6c857b-bafd-4141-ae07-55e63a9b2993"/>
  </div>
 
 ## About
@@ -17,11 +17,11 @@ The project includes:
 
 ## Screenshot
 <div align="left">
-<img width="50%" src="https://github.com/erkanuz/test/assets/78959562/59223876-d5b1-4b57-8124-71c2e7b5dfb7"/><img width="50%" src="https://github.com/erkanuz/test/assets/78959562/b3c1cec5-0d42-473c-acfa-0c59290cb09b"/>
+<img width="50%" src="https://github.com/erkanuz/netflix-clone/assets/78959562/a4490069-3b37-4eba-9244-60bda2028747"/><img width="50%" src="https://github.com/erkanuz/netflix-clone/assets/78959562/8c74087d-911e-4697-b092-03b0febea065"/>
 </div>
 
 <div>
-<img width="50%" src="https://github.com/erkanuz/test/assets/78959562/ff6e2c0c-ba97-44bc-8986-4ed0b139be59"/><img width="50%" src="https://github.com/erkanuz/test/assets/78959562/5d59a573-b434-4414-b2d3-8cde34f418da"/>
+<img width="50%" src="https://github.com/erkanuz/netflix-clone/assets/78959562/9bec48be-26d8-46fc-a0d2-f18adcbf3889"/><img width="50%" src="https://github.com/erkanuz/netflix-clone/assets/78959562/fdc26397-4a00-490d-a2af-7506a144517a"/>
 </div>
 
 
@@ -39,7 +39,7 @@ The project includes:
 * React-hook-form
 
 ## How to run
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`], before forking this repo please ask !
+This is a [Next.js](https://nextjs.org/) project bootstrapped with `create-next-app`, before forking this repo please ask !
 * Clone the repo
 ```bash
 git clone
