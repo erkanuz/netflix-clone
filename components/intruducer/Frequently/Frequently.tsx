@@ -4,7 +4,7 @@ import { Data } from '../Data/Data'
 
 export const Frequently = () => {
   return (
-    <div className='text-white mx-auto py-20 bg'>
+    <div className='text-white mx-auto py-20 bg-black'>
       <h1 className='text-5xl font-bold tracking-wide text-center mb-6 w-full '>Frequently Asked Questions</h1>
 
       <div className='grid place-items-center gap-6'>

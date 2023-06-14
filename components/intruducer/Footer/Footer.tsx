@@ -3,7 +3,7 @@ import { GiWorld } from 'react-icons/gi'
 
 export const Footer = () => {
   return (
-    <div className='flex flex-col items-center w-full pt-20 fot bg'>
+    <div className='flex flex-col items-center w-full pt-20 fot bg-black'>
       <div className='flex flex-col items-start'>
       <p className='text-white underline decoration-1 pb-6'>Questions? Contact Us.</p>
 

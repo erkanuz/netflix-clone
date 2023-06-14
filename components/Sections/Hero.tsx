@@ -115,7 +115,7 @@ export const Hero = ({ netflixOriginals }: Props) => {
   return (
     <div className='flex flex-col justify-end space-y-2 md:space-y-4 pt-72 sm:pt-0 md:pt-20 lg:pb-12 pl-4 lg:pl-8 lg:h-[65vh]'>
       <div className='absolute top-0 left-0 -z-10 h-[95vh] w-screen'>
-        <Image src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`} alt='' fill={true} className='object-cover' priority={false} />
+        <Image src={`${baseUrl}${movie?.backdrop_path || movie?.poster_path}`} alt='' fill={true} className='object-cover' priority={true} />
       </div>
 
       <div className='flex items-center gap-2 sm:pl-1.5 pl-0.5'>

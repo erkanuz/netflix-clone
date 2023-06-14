@@ -72,7 +72,7 @@ export const Navbar = () => {
         <div className='sm:flex hidden items-center gap-6'>
           <Image src={'/logos/netflixs.svg'} alt={''} width={100} height={100} className='hidden sm:block cursor-pointer object-contain w-auto h-auto' />
 
-          <div className='hidden sm:flex mr-0 dark:text-white md:text-sm lg:text-base'>
+          <div className='hidden sm:flex mr-0 text-white md:text-sm lg:text-base'>
             {
               x.map((e) => {
                 return (
@@ -88,9 +88,9 @@ export const Navbar = () => {
         {/* Mobile Button */}
         <div onClick={handleNav} className='sm:hidden z-20'>
           {nav ?
-            <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-300 dark:bg-gray-600'><AiFillCloseCircle size={30} /></button>
+            <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-600'><AiFillCloseCircle size={30} /></button>
             :
-            <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-300 dark:bg-gray-600'><GiHamburgerMenu /></button>
+            <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-600'><GiHamburgerMenu /></button>
           }
         </div>
         {/* Mobile Menu */}
@@ -119,10 +119,10 @@ export const Navbar = () => {
           <Search />
 
           <Badge badgeContent={list.length} color="primary" showZero id="basic-button" overlap="circular">
-            <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-300 dark:bg-gray-600'><AiOutlineHeart /></button>
+            <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-600'><AiOutlineHeart /></button>
           </Badge>
 
-          <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-300 dark:bg-gray-600'
+          <button className='grid place-content-center w-8 h-8 rounded-full bg-gray-600'
             id="basic-button"
             aria-controls={open ? 'basic-menu' : undefined}
             aria-haspopup="true"

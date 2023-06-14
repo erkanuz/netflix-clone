@@ -332,25 +332,6 @@ input:focus + .input-highlight {
   width: 100%;
 }
 
-@media screen and (max-width: 380px) {
-  .smallsize {
-    padding-top: 12rem;
-  }
-}
-
-@media screen and (min-width: 500px) and (max-width: 600px) {
-  .smallsize {
-    padding-top: 10rem;
-    padding-bottom: 2rem;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .smallsize {
-    padding-top: 10rem;
-  }
-}
-
 .BTN {
   display: flex;
   align-items: center;

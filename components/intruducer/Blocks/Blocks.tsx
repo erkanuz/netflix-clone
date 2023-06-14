@@ -4,7 +4,7 @@ import { Divider } from '@mui/material'
 
 export const Blocks = () => {
   return (
-    <div className='flex items-center justify-around bg'>
+    <div className='flex items-center justify-around bg-black'>
       <div>
         <div className='grid grid-cols-1 sm:grid-cols-2 place-items-center'>
           <div className='grid sm:text-start text-center gap-4'>

@@ -46,7 +46,7 @@ const FavCard = ({ movie }: Props) => {
         <div className='absolute top-1 left-1 z-10'>
           <div className='logo'></div>
         </div>
-        <Image src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path || movie.poster_path}`} className='rounded-sm object-cover md:rounded' fill={true} priority={false} alt='' />
+        <Image src={`https://image.tmdb.org/t/p/w500${movie.backdrop_path || movie.poster_path}`} className='rounded-sm object-cover md:rounded' fill={true} priority={false} width={0} height={0} sizes='100vh' alt='' />
         <div className='absolute top-0 left-0 w-full h-full hover:bg-black/80 hover:rounded-sm opacity-0 hover:opacity-100 text-white'>
           <p className='text-xs md:text-sm font-bold flex justify-center items-center h-full text-center whitespace-normal'
             onClick={() => {

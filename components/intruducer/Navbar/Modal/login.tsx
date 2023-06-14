@@ -28,17 +28,17 @@ export default function Home() {
   } 
 
   return (
-    <div className='w-screen h-screen flex items-center justify-center m-auto select-none'>
+    <div className='flex items-center justify-center m-auto p-4 min-h-screen select-none'>
     <Head>
       <title>Auth</title>
       <link rel='icon' href="/favicon.ico" />
     </Head>
     <div className='flex gap-32'>
-    <div className='hidden sm:block'>
+    <div className='hidden lg:block'>
         <div className='opener_logo'></div>
     </div>
 
-    <div className='flex items-center justify-center pb-8 xl:pb-0 smallsize'>
+    <div className='flex items-center justify-center'>
       <div className='w-full'>
         <div className='my-4 text-center'>
           <h1 className='text-4xl font-bold'>Get started now</h1>

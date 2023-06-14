@@ -21,7 +21,7 @@ export const Header = ({title, subtitle, LeftSide, button}: Props) => {
       <div className='2xl:grid hidden h-[22%] w-0.5 bg-black dark:bg-white absolute top-[12%] left-[92px] z-10'></div>
 
       <Image src={'https://images.unsplash.com/photo-1643208589889-0735ad7218f0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1469&q=80'}
-       alt='' fill={true} priority={false} className='-z-10 object-cover hidden sm:block contrast-125 brightness-125 saturate-200' />
+       alt='' fill={true} priority={true} className='-z-10 object-cover hidden sm:block contrast-125 brightness-125 saturate-200' />
 
       <h1 className='title sm:flex hidden sm:relative absolute bottom-[25%] left-10'>{LeftSide}</h1>
 
