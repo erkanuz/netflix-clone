@@ -58,4 +58,4 @@ npm run dev
 ```
 
 ## Deployment
-The project is deployed with [Vercel](https://vercel.com/) !
+The project is deployed by [Vercel](https://vercel.com/) !
