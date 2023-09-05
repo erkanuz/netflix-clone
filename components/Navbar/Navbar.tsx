@@ -25,17 +25,17 @@ const x = [
   {
     id: 2,
     text: "MOVIES",
-    link: '/dashboard/movies',
+    link: '/route/movies',
   },
   {
     id: 3,
     text: "TV SHOWS",
-    link: '/dashboard/tv',
+    link: '/route/tv',
   },
   {
     id: 4,
     text: "MY LIST",
-    link: '/dashboard/favourites',
+    link: '/route/favs',
   },
 ]
 

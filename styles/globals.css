@@ -208,7 +208,7 @@ a {
   }
 
   .hax::before {
-      @apply absolute content-[""] w-[3px] h-[100px] bg-black dark:bg-white block
+      @apply absolute content-[""] w-[3px] h-[100px] bg-white block
     }
 
   /** Inputs */

@@ -20,11 +20,7 @@ export default function Home() {
   const { signIn, signUp } = useAuth()
   const { register, handleSubmit, formState: { errors } } = useForm<Inputs>();
   const onSubmit: SubmitHandler<Inputs> = async ({ email, password }) => {
-    if (login) {
-      await signIn(email, password)
-    } else {
-      await signUp(email, password)
-    }
+    login ? await signIn(email, password) : await signUp(email, password);
   } 
 
   return (
@@ -58,13 +54,22 @@ export default function Home() {
 
         <form onSubmit={handleSubmit(onSubmit)} className='flex flex-col items-center justify-center gap-6'>
           <div className='relative justify-start sm:w-[400px] w-[300px]'>
-            <input type="email" placeholder='email' className='text-white inputs'
-            {...register('email', { required: true})} />
+            <input 
+            type="email" 
+            placeholder='email' 
+            className='text-white inputs'
+            {...register('email', { required: true})}
+            autoComplete="email" />
             <span className='anim_underline'></span>
           </div>
           <div className='relative justify-start sm:w-[400px] w-[300px]'>
-            <input type="password" placeholder='password' className='text-white inputs' required 
-            {...register('password', { required: true})} />
+            <input 
+            type="password" 
+            placeholder='password' 
+            className='text-white inputs' 
+            required 
+            {...register('password', { required: true})}
+            autoComplete="current-password" />
             <span className='anim_underline'></span>
           </div>
           <div className='flex justify-center mb-4'>
